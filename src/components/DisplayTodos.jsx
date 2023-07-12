@@ -1,18 +1,11 @@
-import React, { useState } from 'react'
-import { Col, Container, Row, Card, ListGroup, ListGroupItem } from 'react-bootstrap';
+import React from 'react'
+import { Col, Container, Row, Card, ListGroup, Button } from 'react-bootstrap';
 import DisplayCount from './DisplayCount';
+import { connect } from 'react-redux';
+import { deleteTodoActions } from '../redux/actions/todo';
 
-function DisplayTodos() {
-  const [todos, setTodos] = useState([
-    {
-      title: 'Books',
-      descriptions: 'readable'
-    },
-    {
-      title: 'Row',
-      descriptions: 'Redish'
-    }
-  ])
+function DisplayTodos({todos,deleteTodo}) {
+
   return (
     <Container>
       <Row>
@@ -26,7 +19,10 @@ function DisplayTodos() {
                   todos.map((todo, index) => (
                     <ListGroup.Item key={index}>
                       <h4>{todo.title}</h4>
-                      <p>{todo.descriptions}</p>
+                      <p>{todo.description}</p>
+                      <Button onClick={event=>deleteTodo(todo.id)} variant='danger' size='sm'>
+                        Delete
+                      </Button>
                     </ListGroup.Item>
                   ))
                 }
@@ -39,4 +35,12 @@ function DisplayTodos() {
   )
 }
 
-export default DisplayTodos;
+const mapStateToProps = (state)=>{
+  return {todos:state.todoReducer};
+}
+
+const mapDispatchToProps = (dispatch)=>({
+    deleteTodo:(id)=>(dispatch(deleteTodoActions(id)))
+})
+
+export default connect(mapStateToProps , mapDispatchToProps) (DisplayTodos);

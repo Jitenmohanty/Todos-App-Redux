@@ -2,16 +2,17 @@ import React, { useState } from 'react'
 import { Container, Col, Row, Card ,Form ,Button} from 'react-bootstrap';
 import { addTodoAction } from '../redux/actions/todo';
 import { connect } from 'react-redux';
+import { v4 } from 'uuid';
 
 function AddTodo({addTodoAction}) {
   const [todo , setTodo] =  useState({
         title:'',
-        description:''
+        description:'',
+        id:''
     })
   const handleSubmit = (e)=>{
     e.preventDefault();
-    addTodoAction(todo)
-    console.log(todo)
+    addTodoAction({...todo,id:v4()})
     setTodo({
         title:'',
         description:''
