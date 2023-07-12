@@ -1,13 +1,16 @@
 import React, { useState } from 'react'
 import { Container, Col, Row, Card ,Form ,Button} from 'react-bootstrap';
+import { addTodoAction } from '../redux/actions/todo';
+import { connect } from 'react-redux';
 
-function AddTodo() {
+function AddTodo({addTodoAction}) {
   const [todo , setTodo] =  useState({
         title:'',
         description:''
     })
   const handleSubmit = (e)=>{
     e.preventDefault();
+    addTodoAction(todo)
     console.log(todo)
     setTodo({
         title:'',
@@ -51,4 +54,12 @@ function AddTodo() {
     )
 }
 
-export default AddTodo;
+
+const mapStateToProps = (state) =>({
+
+})
+const mapDispatchToProps = (dispatch)=>({
+    addTodoAction:(todo)=>(dispatch(addTodoAction(todo)))
+})
+
+export default  connect(mapStateToProps,mapDispatchToProps) (AddTodo);
