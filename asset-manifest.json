@@ -1,15 +1,25 @@
 {
   "files": {
-    "main.css": "/Jitenmohanty/Todos-App-Redux.git/static/css/main.1fc0cc64.css",
-    "main.js": "/Jitenmohanty/Todos-App-Redux.git/static/js/main.3300dbc7.js",
-    "static/js/787.1e408a3f.chunk.js": "/Jitenmohanty/Todos-App-Redux.git/static/js/787.1e408a3f.chunk.js",
+    "main.css": "/Jitenmohanty/Todos-App-Redux.git/static/css/main.a4a20492.chunk.css",
+    "main.js": "/Jitenmohanty/Todos-App-Redux.git/static/js/main.370a17cb.chunk.js",
+    "main.js.map": "/Jitenmohanty/Todos-App-Redux.git/static/js/main.370a17cb.chunk.js.map",
+    "runtime-main.js": "/Jitenmohanty/Todos-App-Redux.git/static/js/runtime-main.233ab433.js",
+    "runtime-main.js.map": "/Jitenmohanty/Todos-App-Redux.git/static/js/runtime-main.233ab433.js.map",
+    "static/css/2.5303dbd9.chunk.css": "/Jitenmohanty/Todos-App-Redux.git/static/css/2.5303dbd9.chunk.css",
+    "static/js/2.05dc5688.chunk.js": "/Jitenmohanty/Todos-App-Redux.git/static/js/2.05dc5688.chunk.js",
+    "static/js/2.05dc5688.chunk.js.map": "/Jitenmohanty/Todos-App-Redux.git/static/js/2.05dc5688.chunk.js.map",
+    "static/js/3.8af9b23a.chunk.js": "/Jitenmohanty/Todos-App-Redux.git/static/js/3.8af9b23a.chunk.js",
+    "static/js/3.8af9b23a.chunk.js.map": "/Jitenmohanty/Todos-App-Redux.git/static/js/3.8af9b23a.chunk.js.map",
     "index.html": "/Jitenmohanty/Todos-App-Redux.git/index.html",
-    "main.1fc0cc64.css.map": "/Jitenmohanty/Todos-App-Redux.git/static/css/main.1fc0cc64.css.map",
-    "main.3300dbc7.js.map": "/Jitenmohanty/Todos-App-Redux.git/static/js/main.3300dbc7.js.map",
-    "787.1e408a3f.chunk.js.map": "/Jitenmohanty/Todos-App-Redux.git/static/js/787.1e408a3f.chunk.js.map"
+    "static/css/2.5303dbd9.chunk.css.map": "/Jitenmohanty/Todos-App-Redux.git/static/css/2.5303dbd9.chunk.css.map",
+    "static/css/main.a4a20492.chunk.css.map": "/Jitenmohanty/Todos-App-Redux.git/static/css/main.a4a20492.chunk.css.map",
+    "static/js/2.05dc5688.chunk.js.LICENSE.txt": "/Jitenmohanty/Todos-App-Redux.git/static/js/2.05dc5688.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/css/main.1fc0cc64.css",
-    "static/js/main.3300dbc7.js"
+    "static/js/runtime-main.233ab433.js",
+    "static/css/2.5303dbd9.chunk.css",
+    "static/js/2.05dc5688.chunk.js",
+    "static/css/main.a4a20492.chunk.css",
+    "static/js/main.370a17cb.chunk.js"
   ]
 }
