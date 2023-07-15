@@ -1,25 +1,15 @@
 {
   "files": {
-    "main.css": "/Jitenmohanty/Todos-App-Redux.git/static/css/main.a4a20492.chunk.css",
-    "main.js": "/Jitenmohanty/Todos-App-Redux.git/static/js/main.f2a0a888.chunk.js",
-    "main.js.map": "/Jitenmohanty/Todos-App-Redux.git/static/js/main.f2a0a888.chunk.js.map",
-    "runtime-main.js": "/Jitenmohanty/Todos-App-Redux.git/static/js/runtime-main.9dda4afc.js",
-    "runtime-main.js.map": "/Jitenmohanty/Todos-App-Redux.git/static/js/runtime-main.9dda4afc.js.map",
-    "static/css/2.5303dbd9.chunk.css": "/Jitenmohanty/Todos-App-Redux.git/static/css/2.5303dbd9.chunk.css",
-    "static/js/2.1698d891.chunk.js": "/Jitenmohanty/Todos-App-Redux.git/static/js/2.1698d891.chunk.js",
-    "static/js/2.1698d891.chunk.js.map": "/Jitenmohanty/Todos-App-Redux.git/static/js/2.1698d891.chunk.js.map",
-    "static/js/3.189c9c49.chunk.js": "/Jitenmohanty/Todos-App-Redux.git/static/js/3.189c9c49.chunk.js",
-    "static/js/3.189c9c49.chunk.js.map": "/Jitenmohanty/Todos-App-Redux.git/static/js/3.189c9c49.chunk.js.map",
+    "main.css": "/Jitenmohanty/Todos-App-Redux.git/static/css/main.1fc0cc64.css",
+    "main.js": "/Jitenmohanty/Todos-App-Redux.git/static/js/main.3300dbc7.js",
+    "static/js/787.1e408a3f.chunk.js": "/Jitenmohanty/Todos-App-Redux.git/static/js/787.1e408a3f.chunk.js",
     "index.html": "/Jitenmohanty/Todos-App-Redux.git/index.html",
-    "static/css/2.5303dbd9.chunk.css.map": "/Jitenmohanty/Todos-App-Redux.git/static/css/2.5303dbd9.chunk.css.map",
-    "static/css/main.a4a20492.chunk.css.map": "/Jitenmohanty/Todos-App-Redux.git/static/css/main.a4a20492.chunk.css.map",
-    "static/js/2.1698d891.chunk.js.LICENSE.txt": "/Jitenmohanty/Todos-App-Redux.git/static/js/2.1698d891.chunk.js.LICENSE.txt"
+    "main.1fc0cc64.css.map": "/Jitenmohanty/Todos-App-Redux.git/static/css/main.1fc0cc64.css.map",
+    "main.3300dbc7.js.map": "/Jitenmohanty/Todos-App-Redux.git/static/js/main.3300dbc7.js.map",
+    "787.1e408a3f.chunk.js.map": "/Jitenmohanty/Todos-App-Redux.git/static/js/787.1e408a3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.9dda4afc.js",
-    "static/css/2.5303dbd9.chunk.css",
-    "static/js/2.1698d891.chunk.js",
-    "static/css/main.a4a20492.chunk.css",
-    "static/js/main.f2a0a888.chunk.js"
+    "static/css/main.1fc0cc64.css",
+    "static/js/main.3300dbc7.js"
   ]
 }
